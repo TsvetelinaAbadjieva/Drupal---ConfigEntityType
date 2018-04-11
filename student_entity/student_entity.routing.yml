@@ -1,0 +1,28 @@
+student_entity.list:
+  path: '/admin/structure/students'
+  defaults:
+    _entity_list: 'student_entity'
+    _title: 'Students List'
+  requirements:
+    _permission: 'administer site configuration'
+student_entity.add:
+  path: '/admin/structure/student/add'
+  defaults:
+    _entity_form: 'student_entity.add'
+    _title: 'Add a new student_entity'
+  requirements:
+    _permission: 'administer site configuration'
+student_entity.edit:
+  path: '/admin/structure/student/edit/{student_entity}'
+  defaults:
+    _entity_form: 'student_entity.edit'
+    _title: 'Edit student_entity'
+  requirements:
+    _permission: 'administer site configuration'
+student_entity.delete:
+  path: '/admin/structure/student/delete/{student_entity}'
+  defaults:
+    _entity_form: 'student_entity.delete'
+    _title: 'Delete student_entity'
+  requirements:
+    _permission: 'administer site configuration'

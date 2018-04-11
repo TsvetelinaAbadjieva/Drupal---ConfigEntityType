@@ -1,0 +1,5 @@
+student_entity.add:
+  route_name: 'student_entity.add'
+  title: 'Add Student'
+  appears_on:
+    - student_entity.list

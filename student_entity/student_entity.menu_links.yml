@@ -1,0 +1,5 @@
+student_entity.list:
+  title: Students
+  description: 'Administer the student entities'
+  parent: system.admin_structure
+  route_name: student_entity.list

@@ -1,0 +1,4 @@
+name: Student
+core: 8.x
+description: 'Student configuration entity'
+type: module
